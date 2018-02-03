@@ -2,7 +2,7 @@ h1 {
 	margin: 0px auto 0px auto;
 	font-size: 64px;
 	font-weight: 400;
-	line-height: normal;
+	line-height: 120%;
 }
 
 
@@ -41,7 +41,7 @@ a {
 }
 
 .subtitle {
-	line-height: normal;
+	line-height: 120%;
 	margin-bottom: 40px;
 }
 
