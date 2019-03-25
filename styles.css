@@ -1,109 +1,54 @@
-h1 {
-	margin: 0px auto 0px auto;
-	font-size: 64px;
-	font-weight: 400;
-	line-height: 120%;
-}
-
-
-h2 {
-	font-size: 32px;
-	font-weight: 400;
-	margin: 5px;
-}
-
-p {
-	font-size: 24px;
-	margin: 5px;
-}
-
-@media (max-width: 1000px) {
-    h1 {
-        font-size: 36px;
-    }
-    h2 {
-    	font-size: 24px;
-    }
-    p {
-    	font-size: 18px;
-    }
-}
-
 body {
-	color: white;
-	font-family: "Amiri", serif;
-	margin: 0;
+	font-family: "Barlow", sans-serif;
+	line-height: 1.6em;
+	font-size: 20px;
+	background: #F5F5F5;
+}
+
+h1, h2 {
 	font-weight: 400;
 }
 
-a {
-	color: #87CEEB;
+hr {
+	background: #7D7D7D;
+	border: 0;
+	height: 1px;
+	margin: 40px auto;
 }
 
-.subtitle {
-	line-height: 120%;
-	margin-bottom: 40px;
+.container {
+	max-width: 1000px;
+	padding: 0 20px;
+	margin: 50px auto;
+}
+
+.header-text {
+	text-align: center;
+}
+
+.header-image {
+	max-width: 100%;
+	background: blue;
+}
+
+
+.tagline {
+	max-width: 45rem;
+	margin: 10px auto;
+	font-size: 1.2em;
 }
 
 .pic {
 	float: left;
-	margin-right: 30px;
-	max-width: 90%;
-}
-
-@media (max-width: 1000px) {
-    .pic {
-        margin-right: 0;
-    }
-}
-
-
-.header {
-	background-image: url("sherrerd.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 90vh;
-}
-
-.header-text {
-	padding: 30vh 0 0 100px;
-}
-
-@media (max-width: 1000px) {
-    .header-text {
-        padding: 30vh 20px;
-    }
-}
-
-
-.bio {
-	background: #0c223d;
-	padding: 5vh 0 100px 100px;
-}
-
-@media (max-width: 1000px) {
-	.bio {
-		padding: 5vh 20px 50px;
-	}
+	max-width: 75%;
+	margin-left: 10%;
 }
 
 .bio-text {
 	float: left;
-	max-width: 400px;
+	margin-left: 10%;
 }
 
 .contact {
-	background: #557181;
-	padding: 100px 0 0 100px;
-}
-
-@media (max-width: 1000px) {
-	.contact {
-		padding: 50px 20px 0;
-	}
-}
-
-.copyright {
-	margin-top: 100px;
-	font-size: 18px;
+	text-align: center;
 }
