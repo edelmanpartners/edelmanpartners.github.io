@@ -5,21 +5,13 @@ body {
 	background: #F5F5F5;
 }
 
-@media (max-width: 550px) {
-	h1 {
-		font-size: 32px;
-	}
-	.subtitle {
-		font-size: 28px;
-	}
-}
-
 h1 {
 	line-height: 3rem;
 }
 
 .subtitle {
 	color:#7D7D7D;
+	margin-left: 2rem;
 }
 
 h1, h2 {
@@ -68,4 +60,29 @@ hr {
 
 .contact {
 	text-align: center;
+}
+
+@media (max-width: 800px) {
+	.subtitle {
+		display: block;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 550px) {
+	h1 {
+		font-size: 32px;
+	}
+	.subtitle {
+		font-size: 28px;
+	}
+
+	.container {
+		margin: 0;
+	}
+
+	.topbar {
+		margin: 0;
+		visibility: hidden;
+	}
 }
